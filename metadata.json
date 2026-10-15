@@ -1,0 +1,8 @@
+{
+  "name": "FourSiblings International Ltd.",
+  "description": "FourSiblings International Ltd. - international trading company of industrial raw materials.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Sen', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  background: #F4F7FB;
+  color: #0B1B2D;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #E2E8F0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0F766E;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #115E59;
+}
+
+/* Animation utilities */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease-out;
+}
+
+.animate-on-scroll.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Glass effect */
+.glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(11, 27, 45, 0.08);
+}
+
+/* Button & interactive transitions */
+button, a {
+  transition: all 0.25s ease;
+}
+
+/* Input focus styling with Teal & Mint */
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border: 1px solid #0F766E !important;
+  box-shadow: 0 0 0 3px rgba(94, 234, 212, 0.25) !important;
+}
+
+/* Mobile responsive rules */
+.af-hmbg {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .af-dnav {
+    display: none !important;
+  }
+
+  .af-dcta {
+    display: none !important;
+  }
+
+  .af-hmbg {
+    display: flex !important;
+  }
+}
+
+@media (min-width: 1025px) {
+  .af-dnav {
+    display: flex !important;
+  }
+
+  .af-dcta {
+    display: flex !important;
+  }
+
+  .af-hmbg {
+    display: none !important;
+  }
+
+  .af-mmenu {
+    display: none !important;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    line-height: 1.05 !important;
+  }
+
+  section {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+}
+
+/* Soft background grid */
+.bg-grid {
+  background-image: linear-gradient(rgba(11, 27, 45, 0.03) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(11, 27, 45, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
