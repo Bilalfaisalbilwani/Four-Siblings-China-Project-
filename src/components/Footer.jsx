@@ -151,8 +151,8 @@ export default function Footer() {
             </h4>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
               {[
-                { Icon: MapPin, text: 'UNIT 8, 7/F, BLOCK S-T, VALIANT INDUSTRIAL CENTRE 2-12 AU PUI WAN STREET, FO TAN Hong Kong' },
-                { Icon: MapPin, text: 'No. 8, Qi Changcheng Road, Huangdao District, Qingdao City, Shandong Province, China' },
+                { Icon: MapPin, text: 'Room 401 (B), Building 3, Tianyue Building Materials Commercial City, No. 49 Beijing Road, Bonded Port Area, Qingdao Pilot Free Trade Zone, Shandong, China' },
+                { Icon: MapPin, text: 'Room 401 (B), Building 3, Tianyue Building Materials Commercial City, No. 49 Beijing Road, Bonded Port Area, Qingdao Pilot Free Trade Zone, Shandong, China' },
                 { Icon: Phone, text: '+86 198 6850 5216 \n +852 9290 2924' },
                 { Icon: Mail, text: 'info@4siblingsinternational.com \n sales@4siblingsinternational.com' },
               ].map(({ Icon, text }, i) => (

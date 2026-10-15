@@ -54,12 +54,12 @@ export default function Contact({ onSuccess }) {
                   {
                     Icon: MapPin,
                     title: 'Head Office ',
-                    lines: ['UNIT 8, 7/F, BLOCK S-T, VALIANT INDUSTRIAL CENTRE 2-12 AU PUI WAN STREET, FO TAN Hong Kong'],
+                    lines: ['Room 401 (B), Building 3, Tianyue Building Materials Commercial City, No. 49 Beijing Road, Bonded Port Area, Qingdao Pilot Free Trade Zone, Shandong, China'],
                   },
                   {
                     Icon: MapPin,
                     title: 'Corporate Office',
-                    lines: ['No. 8, Qi Changcheng Road, Huangdao District, Qingdao City, Shandong Province, China'],
+                    lines: ['Room 401 (B), Building 3, Tianyue Building Materials Commercial City, No. 49 Beijing Road, Bonded Port Area, Qingdao Pilot Free Trade Zone, Shandong, China'],
                   },
                   { Icon: Phone, title: 'Direct Contact', lines: ['+86 198 6850 5216', '+852 9290 2924'] },
                   {
